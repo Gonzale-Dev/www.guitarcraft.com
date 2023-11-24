@@ -1,0 +1,263 @@
+.violoes-bg:nth-child(odd) {
+  background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
+}
+
+.titulo {
+  background-color: var(--cor-11);
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.violoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.violoes-imagem {
+  display: grid;
+  width: 300px;
+  margin-top: -30px;
+  margin-left: 170px;
+}
+.violoes-imagem img {
+  grid-area: 1/1;
+}
+.violoes-imagem span {
+  grid-area: 1/1;
+  place-self: start end;
+  margin-top: 90px;
+  margin-right: -60px;
+  background: var(--cor-10);
+  display: inline-block;
+  padding: 8px 16px 8px 8px;
+  border-radius: 4px;
+}
+.violoes-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+.violoes h2,
+.violoes p {
+  grid-column: 1/-1;
+  margin-top: -60px;
+}
+.violoes h2 {
+  margin-top: 15px;
+  margin-bottom: -65px;
+}
+.violoes h2::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  margin-bottom: -24px;
+  margin-left: -18px;
+}
+.violoes p {
+  margin-bottom: -90px;
+}
+.violoes a {
+  position: absolute;
+  margin-top: 310px;
+  margin-left: 360px;
+}
+.violoes li {
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+  margin-top: -160px;
+}
+.violoes ul {
+  display: grid;
+}
+.violoes-conteudo img {
+  width: 32px;
+  margin-right: 10px;
+}
+
+
+
+@media (max-width: 800px) {
+  .violoes-bg:nth-child(odd) {
+    background: var(--cor-11);
+  }
+  .violoes-imagem {
+    display: grid;
+  width: 250px;
+  margin-left: 30px;
+  }
+  .violoes {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .violoes h2::before {
+    margin-bottom: -20px;
+  }
+  .violoes a {
+    margin-top: 310px;
+    margin-left: 180px;
+    padding: 8px 10px;
+  }
+  .violoes-conteudo img {
+    width: 25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 450px) {
+  .header-bg-violoes {
+    height: 220px;
+    margin-bottom: 10px;
+  }
+  .header-bg-violoes ul {
+    gap: 32px;
+    margin-left: 61px;
+    margin-top: -8px;
+  }
+  .header a {
+    margin-left: 30px;
+  }
+  .titulo p {
+    margin-top: -15px;
+  }
+  .titulo {
+    padding-bottom: 22px; 
+    margin-left: -18px;
+  }
+  .violoes-imagem {
+    width: 185px;
+    margin-left: 90px;
+    margin-top: 15px;
+  }
+  .violoes-imagem-nebula {
+    width: 185px;
+    margin-left: 90px;
+    margin-top: -25px;
+  }
+  .violoes-imagem span {
+    font-size: 0.6rem;
+    width: 42px;
+    height: 10px;
+    margin-top: 90px;
+    margin-right: -30px;
+  }
+  .violoes h2 {
+    font-size: 1.4rem;
+    margin-bottom: 50px;
+    margin-left: 115px;
+  }
+  .violoes p {
+    font-size: 0.8rem;
+    margin-top: -30px;
+    margin-left: 18px;
+    align-items: center;
+    margin-bottom: 65px;
+  }
+  .violoes-magic p{
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: -3px;
+  }
+  .violoes-nimbus p {
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: -3px;
+  }
+  .violoes-nebula p {
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: -3px;
+  }
+  .violoes-nebula h2 {
+    margin-top: -10px;
+  }
+  .botao-nebula {
+    font-size: xx-large;
+  }
+  .violoes ul {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .icone {
+    margin-right: 10px;
+  }
+  .violoes {
+    grid-template-columns: 1fr;
+    gap: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .violoes h2::before {
+    margin-bottom: -19px;
+  }
+  .titulo-nebula {
+    margin-left: -10px;
+  }
+  .violoes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    margin-left: 100px;
+    padding: 8px 10px;
+  }
+  .violoes-conteudo img {
+    width: 25px;
+  }
+  .violoes-conteudo h2 {
+    margin-left: 110px;
+  }
+  .violoes-conteudo p {
+    margin-bottom: 100px;
+  }
+
+  .violoes-conteudo a {
+    margin-left: 115px;
+    margin-top: 220px;
+  }
+  .violoes-nimbus a {
+    margin-left: 115px;
+    margin-top: 10;
+  }
+  .violoes-magic a {
+    margin-left: 115px;
+    margin-top: 10;
+  }
+
+  .nimbus-imagem img {
+    width: 185px;
+    margin-left: 90px;
+    margin-top: -20px;
+  }
+  .nimbus-imagem span {
+    font-size: 0.6rem;
+    width: 42px;
+    height: 10px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 235px;
+    background: var(--cor-10);
+    padding: 8px 16px 8px 8px;
+    border-radius: 4px;
+  }
+  .violoes-conteudo a {
+    margin-top: 200px;
+    margin-left: 27%;
+  }
+}

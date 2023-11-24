@@ -1,0 +1,180 @@
+.violoes-lista {
+  padding-top: 60px;
+  padding-bottom: 150px;
+}
+
+.violoes-lista h2 {
+  margin-bottom: 40px;
+
+}
+
+.violoes-lista ul {
+  display: flex;
+  gap: 40px;
+  padding: 0px 20px 20px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+}
+
+.violoes-lista li {
+  flex: 1;
+  min-width: 280px;
+}
+
+.violoes-lista a {
+display: block;
+}
+
+.violoes-lista img {
+margin-bottom: 16px;
+}
+
+.magic,
+.nimbus,
+.nebula {
+font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.preco-magic,
+.preco-nimbus,
+.preco-nebula {
+  font: 500 1.125rem/1.35 "Roboto", sans-serif;
+  color: #595959;
+}
+
+
+.violoes-lista h3 {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.violoes-lista h3::before {
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 12px;
+  margin-right: 8px;
+  background-color: var(--cor-p1);
+  transition: width 0.2s;
+}
+
+.violoes-lista a:hover h3::before {
+width: 24px;
+}
+
+.violoes-lista li span {
+  padding-left: 20px;
+ }
+
+ .MM {
+  height: 632px;
+  margin-top: 15px;
+ }
+ .NC {
+  height: 634px;
+  margin-top: 6px;
+ }
+ .NS {
+  height: 634px;
+  margin-top: 2px;
+ }
+ .magic {
+    position: absolute;
+    top: 1500px;
+  }
+  .preco-magic {
+      position: absolute;
+      margin-left: 42px;
+      top: 1550px;
+    }
+
+  .nimbus {
+    position: absolute;
+    left: 430px;
+    top: 1500px;
+  }
+  .preco-nimbus {
+    position: absolute;
+    left: 470px;
+    top: 1550px;
+  }
+  .nebula {
+    position: absolute;
+    left: 884px;
+    top: 1500px;
+  }
+  .preco-nebula {
+    position: absolute;
+    left: 927px;
+    top: 1550px;
+  }
+  
+
+ @media (max-width: 450px) {
+  .titulo-bg {
+    margin-left: -50px;
+  }
+  .violoes-lista {
+    padding-bottom: 60px;
+  }
+  .violoes-lista ul {
+    gap: 20px;
+  }
+  .violoes-lista li {
+    min-height: 530px;
+    min-width: 282px;
+  }
+  .violao-1,
+  .violao-2,
+  .violao-3 {
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+  }
+  .MM {
+    height: 435px;
+    margin-top: 11px;
+   }
+   .NS {
+    height: 435px;
+    margin-top: 0px;
+   }
+   .NC {
+    height: 435px;
+    margin-top: 4px;
+   }
+   .magic {
+    position: absolute;
+    top: 454px;
+    left: -45px;
+  }
+  .preco-magic {
+    position: absolute;
+    top: 503px;
+    left: -45px;
+    }
+    .nimbus {
+      position: absolute;
+      top: 454px;
+      left: -45px;
+    }
+    .preco-nimbus {
+      position: absolute;
+      top: 505px;
+      left: -4px;
+      }
+      .nebula {
+        position: absolute;
+        top: 454px;
+        left: -40px;
+      }
+      .preco-nebula {
+        position: absolute;
+        top: 505px;
+        left: -4px;
+        }
+}
